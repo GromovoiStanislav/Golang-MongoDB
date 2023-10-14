@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "bef4d67e-6a60-4d53-8ece-468f1b4a4032",
+		"name": "fiber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26825414"
+	},
+	"item": [
+		{
+			"name": "api/products/populate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/populate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"populate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/frontend",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/frontend",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"frontend"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/backend?s=aut&sort=desc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/backend?s=aut&sort=desc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"backend"
+					],
+					"query": [
+						{
+							"key": "s",
+							"value": "aut"
+						},
+						{
+							"key": "sort",
+							"value": "desc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/products/backend?s=aut&sort=desc Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/products/backend?sort=asc&page=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"products",
+						"backend"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "asc"
+						},
+						{
+							"key": "page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
