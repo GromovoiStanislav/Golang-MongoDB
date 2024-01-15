@@ -14,5 +14,6 @@ go get github.com/gofiber/fiber/v2/middleware/cors
 start:
 
 ```
-go run main.go
+go run ./server
+go run ./client
 ```
